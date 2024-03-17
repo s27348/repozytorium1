@@ -19,13 +19,13 @@ namespace ConsoleApplication2
 
         public static double Average(int[] numbers)
         {
-            double sum = 0;
+            double sumSumSumSum = 0;
             foreach (int number in numbers)
             {
-                sum += number;
+                sumSumSumSum += number;
             }
 
-            return sum / numbers.Length;
+            return sumSumSumSum / numbers.Length;
         }
         
         public static int MaxValue(int[] numbers)
